@@ -32,10 +32,8 @@
             </StackPanel>
         </Grid>
         <WrapPanel Orientation="Horizontal">
-            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_GithubRepository}" Icon="Code24" NavigateUri="https://github.com/pizzaboxer/bloxstrap" />
-            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_ReportIssue}" Icon="Chat48" NavigateUri="https://github.com/pizzaboxer/bloxstrap/issues" />
-            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_HelpInformation}" Icon="BookQuestionMark24" NavigateUri="https://github.com/pizzaboxer/bloxstrap/wiki" />
-            <ui:Anchor Margin="0,16,0,0" Content="{x:Static resources:Strings.Menu_About_DiscordServer}" Icon="Chat48" NavigateUri="https://discord.gg/nKjV3mGq6R" />
+            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_GithubRepository}" Icon="Code24" NavigateUri="https://github.com/michgits/bloxstrap" />
+            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_ReportIssue}" Icon="Chat48" NavigateUri="https://github.com/michgits/bloxstrap/issues" />
         </WrapPanel>
 
         <StackPanel Visibility="{Binding BuildInformationVisibility, Mode=OneTime}">
@@ -550,6 +548,7 @@
 
             <controls:Expander Grid.Row="1" Grid.Column="0" Margin="0,0,4,0" HeaderIcon="Code24" HeaderText="{x:Static resources:Strings.Menu_About_Contributors_Code}" IsExpanded="True">
                 <StackPanel>
+                    <controls:MarkdownTextBlock MarkdownText="[mich](https://github.com/michgits)" />
                     <controls:MarkdownTextBlock MarkdownText="[Matt](https://github.com/bluepilledgreat)" />
                     <controls:MarkdownTextBlock MarkdownText="[1011025m](https://github.com/1011025m)" />
                     <controls:MarkdownTextBlock MarkdownText="[EasternBloxxer](https://github.com/EasternBloxxer)" />
