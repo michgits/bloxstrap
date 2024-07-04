@@ -95,6 +95,15 @@ namespace Bloxstrap.Resources {
                 return ResourceManager.GetString("Bootstrapper.ConfirmLaunch", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Roblox is currently running, and launching another instance will close it. Are you sure you want to continue launching?.
+        /// </summary>
+        public static string Bootstrapper_ConfirmLaunch_MultiInstanceEnabled {
+            get {
+                return ResourceManager.GetString("Bootstrapper.ConfirmLaunch.MultiInstanceEnabled", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to It&apos;s possible that something is preventing Bloxstrap from connecting to the internet. Please check and try again..

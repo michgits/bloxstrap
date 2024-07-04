@@ -14,7 +14,7 @@ namespace Bloxstrap
     public partial class App : Application
     {
         public const string ProjectName = "Bloxstrap";
-        public const string ProjectRepository = "pizzaboxer/bloxstrap";
+        public const string ProjectRepository = "michgits/bloxstrap";
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";
 
@@ -220,21 +220,20 @@ namespace Bloxstrap
             if (!IsFirstRun)
                 ShouldSaveConfigs = true;
 
-            // disable multi instance warning
-            /* if (Settings.Prop.ConfirmLaunches && Mutex.TryOpenExisting("ROBLOX_singletonMutex", out var _))
+            if (Settings.Prop.ConfirmLaunches && Mutex.TryOpenExisting("ROBLOX_singletonMutex", out var _))
             {
                 // this currently doesn't work very well since it relies on checking the existence of the singleton mutex
                 // which often hangs around for a few seconds after the window closes
                 // it would be better to have this rely on the activity tracker when we implement IPC in the planned refactoring
 
-                var result = Frontend.ShowMessageBox(Bloxstrap.Resources.Strings.Bootstrapper_ConfirmLaunch, MessageBoxImage.Warning, MessageBoxButton.YesNo);
+                var result = Frontend.ShowMessageBox(Settings.Prop.MultiInstanceLaunching ? Bloxstrap.Resources.Strings.Bootstrapper_ConfirmLaunch_MultiInstanceEnabled : Bloxstrap.Resources.Strings.Bootstrapper_ConfirmLaunch, MessageBoxImage.Warning, MessageBoxButton.YesNo);
 
                 if (result != MessageBoxResult.Yes)
                 {
                     StartupFinished();
                     return;
                 }
-            } */
+            }
 
             // start bootstrapper and show the bootstrapper modal if we're not running silently
             Logger.WriteLine(LOG_IDENT, "Initializing bootstrapper");
