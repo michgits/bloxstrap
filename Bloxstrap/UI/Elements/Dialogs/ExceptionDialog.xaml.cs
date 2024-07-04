@@ -45,7 +45,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
                 string? tag = comboBoxItem.Tag?.ToString();
 
                 if (tag == "github")
-                    Utilities.ShellExecute($"https://github.com/{App.ProjectRepository}/issues");
+                    Utilities.ShellExecute($"https://github.com/michgits/bloxstrap/issues");
                 else if (tag == "discord")
                     Utilities.ShellExecute("https://discord.gg/nKjV3mGq6R");
             };

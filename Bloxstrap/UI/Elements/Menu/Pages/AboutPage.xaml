@@ -32,8 +32,8 @@
             </StackPanel>
         </Grid>
         <WrapPanel Orientation="Horizontal">
-            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_GithubRepository}" Icon="Code24" NavigateUri="https://github.com/michgits/modified-bloxstrap" />
-            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_ReportIssue}" Icon="Chat48" NavigateUri="https://github.com/michgits/modified-bloxstrap/issues" />
+            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_GithubRepository}" Icon="Code24" NavigateUri="https://github.com/michgits/bloxstrap" />
+            <ui:Anchor Margin="0,16,8,0" Content="{x:Static resources:Strings.Menu_About_ReportIssue}" Icon="Chat48" NavigateUri="https://github.com/michgits/bloxstrap/issues" />
         </WrapPanel>
 
         <StackPanel Visibility="{Binding BuildInformationVisibility, Mode=OneTime}">

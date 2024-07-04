@@ -493,8 +493,8 @@ namespace Bloxstrap
                 uninstallKey.SetValue("ModifyPath", $"\"{Paths.Application}\" -menu");
                 uninstallKey.SetValue("QuietUninstallString", $"\"{Paths.Application}\" -uninstall -quiet");
                 uninstallKey.SetValue("UninstallString", $"\"{Paths.Application}\" -uninstall");
-                uninstallKey.SetValue("URLInfoAbout", $"https://github.com/{App.ProjectRepository}");
-                uninstallKey.SetValue("URLUpdateInfo", $"https://github.com/{App.ProjectRepository}/releases/latest");
+                uninstallKey.SetValue("URLInfoAbout", $"https://github.com/michgits/bloxstrap");
+                uninstallKey.SetValue("URLUpdateInfo", $"https://github.com/michgits/bloxstrap/releases/latest");
             }
 
             App.Logger.WriteLine(LOG_IDENT, "Registered application");
@@ -608,7 +608,7 @@ namespace Bloxstrap
             GithubRelease? releaseInfo;
             try
             {
-                releaseInfo = await Http.GetJson<GithubRelease>($"https://api.github.com/repos/{App.ProjectRepository}/releases/latest");
+                releaseInfo = await Http.GetJson<GithubRelease>($"https://api.github.com/repos/michgits/bloxstrap/releases/latest");
             }
             catch (Exception ex)
             {

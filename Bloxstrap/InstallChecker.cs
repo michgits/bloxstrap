@@ -260,7 +260,7 @@ namespace Bloxstrap
 
             if (isAutoUpgrade)
             {
-                Utilities.ShellExecute($"https://github.com/{App.ProjectRepository}/wiki/Release-notes-for-Bloxstrap-v{currentVersionInfo.ProductVersion}");
+                Utilities.ShellExecute($"https://github.com/michgits/bloxstrap/wiki/Release-notes-for-Bloxstrap-v{currentVersionInfo.ProductVersion}");
             }
             else if (!App.LaunchSettings.IsQuiet)
             {

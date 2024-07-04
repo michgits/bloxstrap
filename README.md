@@ -5,21 +5,21 @@
 
 [pizzaboxer](https://github.com/pizzaboxer) for the bloxstrap itself ❤️
 
-# <img src="https://github.com/michgits/modified-bloxstrap/raw/main/Images/Bloxstrap.png" width="48"/> Bloxstrap
+# <img src="https://github.com/michgits/bloxstrap/raw/main/Images/Bloxstrap.png" width="48"/> Bloxstrap
 
-[![License](https://img.shields.io/github/license/michgits/modified-bloxstrap)](https://github.com/michgits/modified-bloxstrap/blob/main/LICENSE)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/michgits/modified-bloxstrap/ci.yml?branch=main&label=builds)](https://github.com/michgits/modified-bloxstrap/actions)
-[![Downloads](https://img.shields.io/github/downloads/michgits/modified-bloxstrap/latest/total?color=981bfe)](https://github.com/michgits/modified-bloxstrap/releases)
-[![Version](https://img.shields.io/github/v/release/michgits/modified-bloxstrap?color=7a39fb)](https://github.com/michgits/modified-bloxstrap/releases/latest)
+[![License](https://img.shields.io/github/license/michgits/bloxstrap)](https://github.com/michgits/bloxstrap/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/michgits/bloxstrap/ci.yml?branch=main&label=builds)](https://github.com/michgits/bloxstrap/actions)
+[![Downloads](https://img.shields.io/github/downloads/michgits/bloxstrap/latest/total?color=981bfe)](https://github.com/michgits/bloxstrap/releases)
+[![Version](https://img.shields.io/github/v/release/michgits/bloxstrap?color=7a39fb)](https://github.com/michgits/bloxstrap/releases/latest)
 
 This is a drop-in replacement for the standard Roblox bootstrapper, providing additional useful features and improvements. Nothing more, nothing less.
 
-This does not touch or modify the game client itself, it's really just a launcher. So don't worry, there's [no risk of being banned](https://github.com/michgits/modified-bloxstrap/wiki/Why-it%27s-not-reasonably-possible-for-you-to-be-banned-by-Bloxstrap) for using this.
+This does not touch or modify the game client itself, it's really just a launcher. So don't worry, there's [no risk of being banned](https://github.com/michgits/bloxstrap/wiki/Why-it%27s-not-reasonably-possible-for-you-to-be-banned-by-Bloxstrap) for using this.
  
 Bloxstrap is only supported for PCs running Windows.
  
  ## Installing
-Download the [latest release of Bloxstrap](https://github.com/michgits/modified-bloxstrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
+Download the [latest release of Bloxstrap](https://github.com/michgits/bloxstrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
 
 You will also need the [.NET 6 Desktop Runtime](https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win11-x64&apphost_version=6.0.16&gui=true). If you don't already have it installed, you'll be prompted to install it anyway. Be sure to install Bloxstrap after you've installed this.
 
