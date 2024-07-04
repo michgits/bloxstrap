@@ -901,6 +901,24 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Yeezus (2024).
+        /// </summary>
+        public static string Enums_BootstrapperStyle_Yeezus {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.Yeezus", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Terminal (2024).
+        /// </summary>
+        public static string Enums_BootstrapperStyle_Terminal {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.Terminal", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to Default.
         /// </summary>
         public static string Enums_CursorType_Default {

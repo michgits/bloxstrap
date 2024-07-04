@@ -1,3 +1,8 @@
+ ## Credits
+[GoingCrazyDude](https://github.com/GoingCrazyDude) for the custom bootstrappers
+[the-the-1](https://github.com/the-the-1) for the multi instance code
+[pizzaboxer](https://github.com/pizzaboxer) for the bloxstrap itself ❤️
+
 # <img src="https://github.com/michgits/bloxstrap/raw/main/Images/Bloxstrap.png" width="48"/> Bloxstrap
 
 [![License](https://img.shields.io/github/license/michgits/bloxstrap)](https://github.com/michgits/bloxstrap/blob/main/LICENSE)

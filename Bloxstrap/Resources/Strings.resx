@@ -387,6 +387,12 @@ Click for more information</value>
   <data name="Enums.BootstrapperStyle.VistaDialog" xml:space="preserve">
     <value>Vista (2008 - 2011)</value>
   </data>
+  <data name="Enums.BootstrapperStyle.Yeezus" xml:space="preserve">
+    <value>Yeezus (2024)</value>
+  </data>
+  <data name="Enums.BootstrapperStyle.TerminalDialog" xml:space="preserve">
+    <value>Terminal (2024)</value>
+  </data>
   <data name="Enums.CursorType.Default" xml:space="preserve">
     <value>Default</value>
   </data>

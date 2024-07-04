@@ -9,6 +9,8 @@
         ClassicFluentDialog,
         ByfronDialog,
         FluentDialog,
-        FluentAeroDialog
+        FluentAeroDialog,
+        Yeezus,
+        Terminal
     }
 }
