@@ -14,7 +14,7 @@ namespace Bloxstrap
     public partial class App : Application
     {
         public const string ProjectName = "Bloxstrap";
-        public const string ProjectRepository = "michgits/bloxstrap";
+        public const string ProjectRepository = "michgits/modified-bloxstrap";
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";
 
