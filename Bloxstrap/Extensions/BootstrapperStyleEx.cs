@@ -14,8 +14,9 @@
             BootstrapperStyle.LegacyDialog2011,
             BootstrapperStyle.LegacyDialog2008,
             BootstrapperStyle.VistaDialog,
-            BootstrapperStyle.Yeezus,
-            BootstrapperStyle.Terminal
+            BootstrapperStyle.YeezusDialog,
+            BootstrapperStyle.TerminalDialog,
+            BootstrapperStyle.SynapseXDialog
         };
     }
 }

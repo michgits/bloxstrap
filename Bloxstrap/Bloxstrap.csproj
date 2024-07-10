@@ -22,6 +22,7 @@
     <Resource Include="Resources\BootstrapperStyles\ByfronDialog\ByfronLogoLight.jpg" />
     <Resource Include="Resources\BootstrapperStyles\YeezusDialog\Yeezus.gif" />
     <Resource Include="Resources\BootstrapperStyles\TerminalDialog\Reference.png" />
+    <Resource Include="Resources\BootstrapperStyles\SynapseXDialog\SynapseXLogo.png" />
     <Resource Include="Resources\Menu\StartMenu.png" />
     <Resource Include="Resources\MessageBox\Error.png" />
     <Resource Include="Resources\MessageBox\Information.png" />
@@ -52,6 +53,7 @@
     </PackageReference>
     <PackageReference Include="securifybv.ShellLink" Version="0.1.0" />
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
+    <PackageReference Include="Svg" Version="3.4.7" />
     <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
     <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
