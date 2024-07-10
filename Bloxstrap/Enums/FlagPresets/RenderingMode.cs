@@ -1,4 +1,5 @@
-﻿{
+﻿namespace Bloxstrap.Enums.FlagPresets
+{
     public enum RenderingMode
     {
         [EnumName(FromTranslation = "Common.Automatic")]
