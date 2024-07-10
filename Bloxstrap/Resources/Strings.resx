@@ -324,37 +324,13 @@ Click for more information</value>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>Please report this exception through a GitHub issue or in our Discord chat, along with a copy of the log file that was created.</value>
   </data>
-  <data name="Dialog.Exception.SubmitReport" xml:space="preserve">
-    <value>Submit report...</value>
-  </data>
-  <data name="Dialog.Exception.SubmitReportDiscord" xml:space="preserve">
-    <value>Submit report via Discord</value>
-  </data>
-  <data name="Dialog.Exception.SubmitReportGithub" xml:space="preserve">
-    <value>Submit report via GitHub</value>
-  </data>
+      <value>Check the [Bloxstrap Wiki]({0}) first to see if this problem has already been addressed with a fix.
+
+If not, then please report this exception through a [GitHub issue]({1}) along with a copy of the log file that was created.</value>
   <data name="Dialog.Exception.Title" xml:space="preserve">
     <value>Bloxstrap Exception</value>
   </data>
-  <data name="Enums.BootstrapperIcon.Icon2008" xml:space="preserve">
-    <value>2008</value>
-  </data>
-  <data name="Enums.BootstrapperIcon.Icon2011" xml:space="preserve">
-    <value>2011</value>
-  </data>
-  <data name="Enums.BootstrapperIcon.Icon2017" xml:space="preserve">
-    <value>2017</value>
-  </data>
-  <data name="Enums.BootstrapperIcon.Icon2019" xml:space="preserve">
-    <value>2019</value>
-  </data>
-  <data name="Enums.BootstrapperIcon.Icon2022" xml:space="preserve">
-    <value>2022</value>
-  </data>
-  <data name="Enums.BootstrapperIcon.IconBloxstrap" xml:space="preserve">
-    <value>Bloxstrap</value>
-  </data>
-  <data name="Enums.BootstrapperIcon.IconCustom" xml:space="preserve">
+  <data name="Common.Custom" xml:space="preserve">
     <value>Custom</value>
   </data>
   <data name="Enums.BootstrapperIcon.IconEarly2015" xml:space="preserve">
@@ -372,9 +348,6 @@ Click for more information</value>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
     <value>Bloxstrap (Glass)</value>
   </data>
-  <data name="Enums.BootstrapperStyle.FluentDialog" xml:space="preserve">
-    <value>Bloxstrap</value>
-  </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Legacy (2008 - 2011)</value>
   </data>
@@ -390,11 +363,8 @@ Click for more information</value>
   <data name="Enums.BootstrapperStyle.Yeezus" xml:space="preserve">
     <value>Yeezus (2024)</value>
   </data>
-  <data name="Enums.BootstrapperStyle.TerminalDialog" xml:space="preserve">
+  <data name="Enums.BootstrapperStyle.Terminal" xml:space="preserve">
     <value>Terminal (2024)</value>
-  </data>
-  <data name="Enums.CursorType.Default" xml:space="preserve">
-    <value>Default</value>
   </data>
   <data name="Enums.CursorType.From2006" xml:space="preserve">
     <value>2006 (Cartoony)</value>
@@ -417,9 +387,6 @@ Click for more information</value>
   <data name="Enums.EmojiType.Windows8" xml:space="preserve">
     <value>Windows 8</value>
   </data>
-  <data name="Enums.FlagPresets.InGameMenuVersion.Default" xml:space="preserve">
-    <value>Default</value>
-  </data>
   <data name="Enums.FlagPresets.InGameMenuVersion.V1" xml:space="preserve">
     <value>2015 (V1)</value>
   </data>
@@ -441,41 +408,11 @@ Click for more information</value>
   <data name="Enums.FlagPresets.LightingMode.Voxel" xml:space="preserve">
     <value>Voxel (Phase 1)</value>
   </data>
-  <data name="Enums.FlagPresets.MaterialVersion.Default" xml:space="preserve">
-    <value>Chosen by game</value>
-  </data>
-  <data name="Enums.FlagPresets.MaterialVersion.New" xml:space="preserve">
-    <value>New (2022)</value>
-  </data>
-  <data name="Enums.FlagPresets.MaterialVersion.Old" xml:space="preserve">
-    <value>Old (Pre-2022)</value>
-  </data>
-  <data name="Enums.FlagPresets.MSAAMode.Default" xml:space="preserve">
-    <value>Automatic</value>
-  </data>
-  <data name="Enums.FlagPresets.MSAAMode.x1" xml:space="preserve">
-    <value>1x</value>
-  </data>
-  <data name="Enums.FlagPresets.MSAAMode.x2" xml:space="preserve">
-    <value>2x</value>
-  </data>
-  <data name="Enums.FlagPresets.MSAAMode.x4" xml:space="preserve">
-    <value>4x</value>
-  </data>
   <data name="Enums.FlagPresets.RenderingMode.D3D10" xml:space="preserve">
     <value>Direct3D 10</value>
   </data>
   <data name="Enums.FlagPresets.RenderingMode.D3D11" xml:space="preserve">
     <value>Direct3D 11</value>
-  </data>
-  <data name="Enums.FlagPresets.RenderingMode.Default" xml:space="preserve">
-    <value>Automatic</value>
-  </data>
-  <data name="Enums.FlagPresets.RenderingMode.OpenGL" xml:space="preserve">
-    <value>OpenGL</value>
-  </data>
-  <data name="Enums.FlagPresets.RenderingMode.Vulkan" xml:space="preserve">
-    <value>Vulkan</value>
   </data>
   <data name="Enums.ServerType.Private" xml:space="preserve">
     <value>Private</value>
@@ -488,9 +425,6 @@ Click for more information</value>
   </data>
   <data name="Enums.Theme.Dark" xml:space="preserve">
     <value>Dark</value>
-  </data>
-  <data name="Enums.Theme.Default" xml:space="preserve">
-    <value>System default</value>
   </data>
   <data name="Enums.Theme.Light" xml:space="preserve">
     <value>Light</value>
@@ -865,7 +799,7 @@ Selecting 'No' will ignore this warning and continue installation.</value>
     <value>Custom Integrations</value>
   </data>
   <data name="Menu.Integrations.Description" xml:space="preserve">
-    <value>Configure quick and easy ways to improve the Roblox gameplay experience.</value>
+    <value>Configure additional functionality to go alongside Roblox.</value>
   </data>
   <data name="Menu.Integrations.DesktopApp.Description" xml:space="preserve">
     <value>Roblox will fully close when you leave a game instead of dropping you back into the app.</value>
@@ -880,10 +814,10 @@ Selecting 'No' will ignore this warning and continue installation.</value>
     <value>Enable activity tracking</value>
   </data>
   <data name="Menu.Integrations.RequiresActivityTracking" xml:space="preserve">
-    <value>This feature requires activity tracking to be enabled.</value>
+    <value>This feature requires activity tracking to be enabled and the Discord desktop app to be installed and running.</value>
   </data>
   <data name="Menu.Integrations.ShowGameActivity.Description" xml:space="preserve">
-    <value>When playing a Roblox game, the game you're playing will show on your Discord profile activity.</value>
+    <value>The Roblox game you're playing will be shown on your Discord profile. [Not working?]({0})</value>
   </data>
   <data name="Menu.Integrations.ShowGameActivity.Title" xml:space="preserve">
     <value>Show game activity</value>
@@ -1048,9 +982,6 @@ Selecting 'No' will ignore this warning and continue installation.</value>
   <data name="Menu.FastFlags.Presets.TextureQuality.Title" xml:space="preserve">
     <value>Texture quality</value>
   </data>
-  <data name="Enums.FlagPresets.TextureQuality.Default" xml:space="preserve">
-    <value>Default</value>
-  </data>
   <data name="Enums.FlagPresets.TextureQuality.Level0" xml:space="preserve">
     <value>Level 0 (Lowest)</value>
   </data>
@@ -1093,5 +1024,17 @@ Selecting 'No' will ignore this warning and continue installation.</value>
   </data>
   <data name="Menu.FastFlagEditor.InvalidNumberValue" xml:space="preserve">
     <value>The entry for '{0}' is not valid as the value must be a number</value>
+  </data>
+  <data name="Logger.NoWriteMode" xml:space="preserve">
+    <value>No log file will be written for this launch because Bloxstrap is unable to write to the folder at '{0}'</value>
+  </data>
+  <data name="Common.Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Common.Automatic" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="Common.SystemDefault" xml:space="preserve">
+    <value>System default</value>
   </data>
 </root>
