@@ -838,22 +838,31 @@ namespace Bloxstrap.Resources {
                 return ResourceManager.GetString("Enums.BootstrapperStyle.VistaDialog", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Yeezus (2024).
+        ///   Looks up a localized string similar to Synapse X (2024).
         /// </summary>
-        public static string Enums_BootstrapperStyle_Yeezus {
+        public static string Enums_BootstrapperStyle_SynapseXDialog {
             get {
-                return ResourceManager.GetString("Enums.BootstrapperStyle.Yeezus", resourceCulture);
+                return ResourceManager.GetString("Enums.BootstrapperStyle.SynapseXDialog", resourceCulture);
             }
-        }
+        }   
 
         /// <summary>
         ///   Looks up a localized string similar to Terminal (2024).
         /// </summary>
-        public static string Enums_BootstrapperStyle_Terminal {
+        public static string Enums_BootstrapperStyle_TerminalDialog {
             get {
-                return ResourceManager.GetString("Enums.BootstrapperStyle.Terminal", resourceCulture);
+                return ResourceManager.GetString("Enums.BootstrapperStyle.TerminalDialog", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Yeezus (2024).
+        /// </summary>
+        public static string Enums_BootstrapperStyle_YeezusDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.YeezusDialog", resourceCulture);
             }
         }
 

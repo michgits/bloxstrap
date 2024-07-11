@@ -11,7 +11,8 @@
         [EnumName(StaticName = "Bloxstrap")]
         FluentDialog,
         FluentAeroDialog,
-        Yeezus,
-        Terminal
+        SynapseXDialog,
+        TerminalDialog,
+        YeezusDialog
     }
 }

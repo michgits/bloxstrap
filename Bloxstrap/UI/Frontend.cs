@@ -65,8 +65,9 @@ namespace Bloxstrap.UI
                 BootstrapperStyle.ByfronDialog => new ByfronDialog(),
                 BootstrapperStyle.FluentDialog => new FluentDialog(false),
                 BootstrapperStyle.FluentAeroDialog => new FluentDialog(true),
-                BootstrapperStyle.Yeezus => new YeezusDialog(),
-                BootstrapperStyle.Terminal => new TerminalDialog(),
+                BootstrapperStyle.SynapseXDialog => new SynapseXDialog(),
+                BootstrapperStyle.TerminalDialog => new TerminalDialog(),
+                BootstrapperStyle.YeezusDialog => new YeezusDialog(),
                 _ => new FluentDialog(false)
             };
         }
