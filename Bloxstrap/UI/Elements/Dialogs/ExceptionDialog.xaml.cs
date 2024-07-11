@@ -18,10 +18,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
     {
         public ExceptionDialog(Exception exception)
         {
-            Exception? innerException = exception.InnerException;
-
             InitializeComponent();
-
             AddException(exception);
 
             if (!App.Logger.Initialized)

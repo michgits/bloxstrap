@@ -111,7 +111,7 @@ namespace Bloxstrap
         {
             const string LOG_IDENT = "App::OnStartup";
 
-            Locale.CurrentCulture = Thread.CurrentThread.CurrentUICulture;
+            Locale.Initialize();
 
             base.OnStartup(e);
 
@@ -144,7 +144,14 @@ namespace Bloxstrap
                 Settings.Load();
                 State.Load();
                 FastFlags.Load();
-                Locale.Set();
+
+                if (!Locale.SupportedLocales.ContainsKey(Settings.Prop.Locale))
+                {
+                    Settings.Prop.Locale = "nil";
+                    Settings.Save();
+                }
+
+                Locale.Set(Settings.Prop.Locale);
             }
 
             LaunchSettings.ParseRoblox();
@@ -182,7 +189,7 @@ namespace Bloxstrap
             {
                 Logger.Initialize(LaunchSettings.IsUninstall);
 
-                if (!Logger.Initialized)
+                if (!Logger.Initialized && !Logger.NoWriteMode)
                 {
                     Logger.WriteLine(LOG_IDENT, "Possible duplicate launch detected, terminating.");
                     Terminate();
