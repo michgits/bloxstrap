@@ -234,7 +234,12 @@ namespace Bloxstrap.UI.Elements.Menu.Pages
                 if (App.FastFlags.Prop.ContainsKey(pair.Key) && !overwriteConflicting)
                     continue;
 
-                if (!ValidateFlagEntry(pair.Key, (string)pair.Value))
+                var val = pair.Value.ToString();
+
+                if (val is null)
+                    continue;
+
+                if (!ValidateFlagEntry(pair.Key, val))
                     continue;
 
                 App.FastFlags.SetValue(pair.Key, pair.Value);
@@ -252,10 +257,10 @@ namespace Bloxstrap.UI.Elements.Menu.Pages
                 errorMessage = Bloxstrap.Resources.Strings.Menu_FastFlagEditor_InvalidPrefix;
             else if (!name.All(x => char.IsLetterOrDigit(x) || x == '_'))
                 errorMessage = Bloxstrap.Resources.Strings.Menu_FastFlagEditor_InvalidCharacter;
-            else if (name[..6].Contains("FFlag") && lowerValue != "true" && lowerValue != "false")
-                errorMessage = Bloxstrap.Resources.Strings.Menu_FastFlagEditor_InvalidBoolValue;
-            else if (name[..5].Contains("FInt") && !Int32.TryParse(value, out _))
+            else if ((name.StartsWith("FInt") || name.StartsWith("DFInt")) && !Int32.TryParse(value, out _))
                 errorMessage = Bloxstrap.Resources.Strings.Menu_FastFlagEditor_InvalidNumberValue;
+            else if ((name.StartsWith("FFlag") || name.StartsWith("DFFlag")) && lowerValue != "true" && lowerValue != "false")
+                errorMessage = Bloxstrap.Resources.Strings.Menu_FastFlagEditor_InvalidBoolValue;
 
             if (!String.IsNullOrEmpty(errorMessage))
             {

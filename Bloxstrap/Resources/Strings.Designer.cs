@@ -324,6 +324,15 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Automatic.
+        /// </summary>
+        public static string Common_Automatic {
+            get {
+                return ResourceManager.GetString("Common.Automatic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Browse.
         /// </summary>
         public static string Common_Browse {
@@ -347,6 +356,24 @@ namespace Bloxstrap.Resources {
         public static string Common_Close {
             get {
                 return ResourceManager.GetString("Common.Close", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom.
+        /// </summary>
+        public static string Common_Custom {
+            get {
+                return ResourceManager.GetString("Common.Custom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default.
+        /// </summary>
+        public static string Common_Default {
+            get {
+                return ResourceManager.GetString("Common.Default", resourceCulture);
             }
         }
         
@@ -464,6 +491,15 @@ namespace Bloxstrap.Resources {
         public static string Common_Reset {
             get {
                 return ResourceManager.GetString("Common.Reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to System default.
+        /// </summary>
+        public static string Common_SystemDefault {
+            get {
+                return ResourceManager.GetString("Common.SystemDefault", resourceCulture);
             }
         }
         
@@ -685,38 +721,13 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please report this exception through a GitHub issue or in our Discord chat, along with a copy of the log file that was created..
+        ///   Looks up a localized string similar to Check the [Bloxstrap Wiki]({0}) first to see if this problem has already been addressed with a fix.
+        ///
+        ///If not, then please report this exception through a [GitHub issue]({1}) along with a copy of the log file that was created..
         /// </summary>
         public static string Dialog_Exception_Info_2 {
             get {
                 return ResourceManager.GetString("Dialog.Exception.Info.2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Submit report....
-        /// </summary>
-        public static string Dialog_Exception_SubmitReport {
-            get {
-                return ResourceManager.GetString("Dialog.Exception.SubmitReport", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Submit report via Discord.
-        /// </summary>
-        public static string Dialog_Exception_SubmitReportDiscord {
-            get {
-                return ResourceManager.GetString("Dialog.Exception.SubmitReportDiscord", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Submit report via GitHub.
-        /// </summary>
-        public static string Dialog_Exception_SubmitReportGithub {
-            get {
-                return ResourceManager.GetString("Dialog.Exception.SubmitReportGithub", resourceCulture);
             }
         }
         
@@ -744,69 +755,6 @@ namespace Bloxstrap.Resources {
         public static string Dialog_LanguageSelector_Subtext {
             get {
                 return ResourceManager.GetString("Dialog.LanguageSelector.Subtext", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2008.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_Icon2008 {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.Icon2008", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2011.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_Icon2011 {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.Icon2011", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2017.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_Icon2017 {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.Icon2017", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2019.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_Icon2019 {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.Icon2019", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2022.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_Icon2022 {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.Icon2022", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bloxstrap.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_IconBloxstrap {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.IconBloxstrap", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Custom.
-        /// </summary>
-        public static string Enums_BootstrapperIcon_IconCustom {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperIcon.IconCustom", resourceCulture);
             }
         }
         
@@ -852,15 +800,6 @@ namespace Bloxstrap.Resources {
         public static string Enums_BootstrapperStyle_FluentAeroDialog {
             get {
                 return ResourceManager.GetString("Enums.BootstrapperStyle.FluentAeroDialog", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bloxstrap.
-        /// </summary>
-        public static string Enums_BootstrapperStyle_FluentDialog {
-            get {
-                return ResourceManager.GetString("Enums.BootstrapperStyle.FluentDialog", resourceCulture);
             }
         }
         
@@ -991,15 +930,6 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Default.
-        /// </summary>
-        public static string Enums_FlagPresets_InGameMenuVersion_Default {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.InGameMenuVersion.Default", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 2015 (V1).
         /// </summary>
         public static string Enums_FlagPresets_InGameMenuVersion_V1 {
@@ -1072,69 +1002,6 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Chosen by game.
-        /// </summary>
-        public static string Enums_FlagPresets_MaterialVersion_Default {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MaterialVersion.Default", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to New (2022).
-        /// </summary>
-        public static string Enums_FlagPresets_MaterialVersion_New {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MaterialVersion.New", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Old (Pre-2022).
-        /// </summary>
-        public static string Enums_FlagPresets_MaterialVersion_Old {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MaterialVersion.Old", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Automatic.
-        /// </summary>
-        public static string Enums_FlagPresets_MSAAMode_Default {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MSAAMode.Default", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1x.
-        /// </summary>
-        public static string Enums_FlagPresets_MSAAMode_x1 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MSAAMode.x1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2x.
-        /// </summary>
-        public static string Enums_FlagPresets_MSAAMode_x2 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MSAAMode.x2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 4x.
-        /// </summary>
-        public static string Enums_FlagPresets_MSAAMode_x4 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.MSAAMode.x4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Direct3D 10.
         /// </summary>
         public static string Enums_FlagPresets_RenderingMode_D3D10 {
@@ -1149,42 +1016,6 @@ namespace Bloxstrap.Resources {
         public static string Enums_FlagPresets_RenderingMode_D3D11 {
             get {
                 return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.D3D11", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Automatic.
-        /// </summary>
-        public static string Enums_FlagPresets_RenderingMode_Default {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.Default", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to OpenGL.
-        /// </summary>
-        public static string Enums_FlagPresets_RenderingMode_OpenGL {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.OpenGL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vulkan.
-        /// </summary>
-        public static string Enums_FlagPresets_RenderingMode_Vulkan {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.Vulkan", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Default.
-        /// </summary>
-        public static string Enums_FlagPresets_TextureQuality_Default {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.TextureQuality.Default", resourceCulture);
             }
         }
         
@@ -1261,15 +1092,6 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System default.
-        /// </summary>
-        public static string Enums_Theme_Default {
-            get {
-                return ResourceManager.GetString("Enums.Theme.Default", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Light.
         /// </summary>
         public static string Enums_Theme_Light {
@@ -1341,6 +1163,15 @@ namespace Bloxstrap.Resources {
         public static string InstallChecker_VersionDifferentThanInstalled {
             get {
                 return ResourceManager.GetString("InstallChecker.VersionDifferentThanInstalled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No log file will be written for this launch because Bloxstrap is unable to write to the folder at &apos;{0}&apos;.
+        /// </summary>
+        public static string Logger_NoWriteMode {
+            get {
+                return ResourceManager.GetString("Logger.NoWriteMode", resourceCulture);
             }
         }
         
@@ -2522,7 +2353,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure quick and easy ways to improve the Roblox gameplay experience..
+        ///   Looks up a localized string similar to Configure additional functionality to go alongside Roblox..
         /// </summary>
         public static string Menu_Integrations_Description {
             get {
@@ -2567,7 +2398,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This feature requires activity tracking to be enabled..
+        ///   Looks up a localized string similar to This feature requires activity tracking to be enabled and the Discord desktop app to be installed and running..
         /// </summary>
         public static string Menu_Integrations_RequiresActivityTracking {
             get {
@@ -2576,7 +2407,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to When playing a Roblox game, the game you&apos;re playing will show on your Discord profile activity..
+        ///   Looks up a localized string similar to The Roblox game you&apos;re playing will be shown on your Discord profile. [Not working?]({0}).
         /// </summary>
         public static string Menu_Integrations_ShowGameActivity_Description {
             get {
