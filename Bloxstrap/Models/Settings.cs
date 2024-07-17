@@ -19,7 +19,7 @@ namespace Bloxstrap.Models
         public bool UseFastFlagManager { get; set; } = true;
 
         // channel configuration
-        public string Channel { get; set; } = RobloxDeployment.DefaultChannel;
+        public string Channel { get; set; } = "LIVE";
 
         // integration configuration
         public bool EnableActivityTracking { get; set; } = true;
