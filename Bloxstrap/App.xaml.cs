@@ -230,7 +230,7 @@ namespace Bloxstrap
 
                 if (result != MessageBoxResult.Yes)
                 {
-                    StartupFinished();
+                    Terminate();
                     return;
                 }
             }
@@ -258,7 +258,6 @@ namespace Bloxstrap
             }
 
 
-            StartupFinished();
             Terminate();
         }
     }
