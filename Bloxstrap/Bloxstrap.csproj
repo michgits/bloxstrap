@@ -23,7 +23,6 @@
     <Resource Include="Resources\BootstrapperStyles\YeezusDialog\Yeezus.gif" />
     <Resource Include="Resources\BootstrapperStyles\TerminalDialog\Reference.png" />
     <Resource Include="Resources\BootstrapperStyles\SynapseXDialog\SynapseXLogo.png" />
-    <Resource Include="Resources\Menu\StartMenu.png" />
     <Resource Include="Resources\MessageBox\Error.png" />
     <Resource Include="Resources\MessageBox\Information.png" />
     <Resource Include="Resources\MessageBox\Question.png" />
