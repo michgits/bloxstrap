@@ -2984,6 +2984,8 @@ namespace Bloxstrap.Resources {
         public static string Menu_Integrations_AllowMultipleInstances_Description {
             get {
                 return ResourceManager.GetString("Menu.Integrations.AllowMultipleInstances.Description", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to They&apos;ll be kept where Bloxstrap was installed, and will automatically be restored on a reinstall..
