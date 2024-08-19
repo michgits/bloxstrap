@@ -308,19 +308,6 @@ namespace Bloxstrap
                 }
             }
 
-            // start bootstrapper and show the bootstrapper modal if we're not running silently
-            Logger.WriteLine(LOG_IDENT, "Initializing bootstrapper");
-            Bootstrapper bootstrapper = new(LaunchSettings.RobloxLaunchArgs, LaunchSettings.RobloxLaunchMode);
-            IBootstrapperDialog? dialog = null;
-
-            if (!LaunchSettings.IsQuiet)
-            {
-                Logger.WriteLine(LOG_IDENT, "Initializing bootstrapper dialog");
-                dialog = Settings.Prop.BootstrapperStyle.GetNew();
-                bootstrapper.Dialog = dialog;
-                dialog.Bootstrapper = bootstrapper;
-            }
-
             // handle roblox singleton mutex for multi-instance launching
             // note we're handling it here in the main thread and NOT in the
             // bootstrapper as handling mutexes in async contexts suuuuuucks
@@ -390,6 +377,8 @@ namespace Bloxstrap
 
 
             StartupFinished();
+            
+            Terminate();
         }
     }
 }
